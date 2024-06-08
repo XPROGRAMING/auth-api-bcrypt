@@ -1,0 +1,85 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Teste",
+    "collectionId": "acd6a1ad-a864-43b9-a94e-9f0a058472db",
+    "dateExported": "2024-06-08T14:01:53.603Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "af020f48-d872-4f1c-905d-351f55517358",
+            "colId": "acd6a1ad-a864-43b9-a94e-9f0a058472db",
+            "containerId": "",
+            "name": "get para '/'",
+            "url": "http://localhost:3000",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-08T13:45:34.810Z",
+            "modified": "2024-06-08T13:45:55.665Z",
+            "headers": []
+        },
+        {
+            "_id": "b00e0af7-e7ec-4a78-9708-9ed594c9a698",
+            "colId": "acd6a1ad-a864-43b9-a94e-9f0a058472db",
+            "containerId": "",
+            "name": "post para '/registro'",
+            "url": "http://localhost:3000/registro",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-08T13:46:28.201Z",
+            "modified": "2024-06-08T13:49:05.154Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"usuario\":\"michael\",\n  \"nome\":\"michaelhdo\",\n  \"email\":\"michael@teste.com\",\n  \"senha\":\"teste123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "82eb4a5a-70b3-4789-957c-6dc2a87653a1",
+            "colId": "acd6a1ad-a864-43b9-a94e-9f0a058472db",
+            "containerId": "",
+            "name": "post para '/login'",
+            "url": "http://localhost:3000/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-06-08T13:52:14.313Z",
+            "modified": "2024-06-08T13:53:01.687Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"michael@teste.com\",\n  \"senha\":\"teste123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "02ca9910-531b-4ebd-802f-a8e79dde1282",
+            "colId": "acd6a1ad-a864-43b9-a94e-9f0a058472db",
+            "containerId": "",
+            "name": "get para '/users' com token",
+            "url": "http://localhost:3000/users",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-06-08T13:55:47.520Z",
+            "modified": "2024-06-08T13:56:10.299Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywidXN1YXJpbyI6Im1pY2hhZWwiLCJub21lIjoibWljaGFlbGhkbyIsImVtYWlsIjoibWljaGFlbEB0ZXN0ZS5jb20iLCJzZW5oYSI6IiQyYiQxMCRJRmsycHZnVnd0am0uRXBMVEZNLmh1R3FnT0c0U0g5SXZ5MzVpQ2xFZ29DTHVtSkYuYWN1UyIsImNyZWF0ZWRBdCI6IjIwMjQtMDYtMDhUMTM6NDk6MDUuMTM2WiIsInVwZGF0ZWRBdCI6IjIwMjQtMDYtMDhUMTM6NDk6MDUuMTM2WiIsImlhdCI6MTcxNzg1NDc4MSwiZXhwIjoxNzE3ODU4MzgxfQ.1aS0RI_iRK55N_leGHiW98L5A6fskZOgNmPcoYHzXrA"
+            }
+        },
+        {
+            "_id": "c96ce07d-e97b-4e0b-b01c-1dc0b8e29d43",
+            "colId": "acd6a1ad-a864-43b9-a94e-9f0a058472db",
+            "containerId": "",
+            "name": "get para '/users' sem token",
+            "url": "http://localhost:3000/users",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-06-08T14:00:58.495Z",
+            "modified": "2024-06-08T14:01:20.179Z",
+            "headers": []
+        }
+    ],
+    "ref": "NLuiEC2mHJe5KDQfRAq6lvq7O0BfcvovCfvUCpzTB93vFVIWYFnATFstpAkc8jJDij7gSW6bD4xsvMOGDkaT1g"
+}
