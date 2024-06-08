@@ -69,16 +69,6 @@ Método: GET
 Descrição: Lista todos os usuários cadastrados no banco de dados.
 Autenticação: Requer envio do token recebido no endpoint /login via Bearer Token.
 
-
-
-
-
-
-
-
-
-
-
-
-
+------------------------------------------------------------------------
+Arquivo de teste das rotas: thunder-collection_Teste.json
 
